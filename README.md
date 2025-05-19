@@ -40,8 +40,10 @@ Create a virtual environment (optional):
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 Install dependencies:
-
 pip install -r requirements.txt
+
+Dataset (Kaggle) :https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+
 Training the Model
 Then run the training script: python model.py
 This will preprocess the data, train the CNN model, and save the trained model as asl_cnn_model.keras.
